@@ -43,8 +43,3 @@ id_types:
       - type: exclude
         value: "test@company.com"
 
-packages:
-  - name: shopify_features
-    url: https://github.com/rudderlabs/rudderstack-profiles-shopify-features.git
-    inputsMap:
-      rsOrderUpdated: inputs/rsOrderUpdated # we have
