@@ -15,15 +15,15 @@ include_untimed: true
 model_folders:
   - models
 
-# # Entities in this project and their ids.
-# entities:
-#   - name: user
-#     id_stitcher: models/user_id_stitcher
-#     id_types:
-#       - main_id
-#       - user_id
-#       - anonymous_id
-#       - email
+# Entities in this project and their ids.
+entities:
+  - name: user
+    id_stitcher: models/user_id_stitcher
+    id_types:
+      - main_id
+      - user_id
+      - anonymous_id
+      - email
 
 id_types:
   - name: main_id
